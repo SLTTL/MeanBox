@@ -22,13 +22,14 @@ sudo apt-get -y install python3-pip
 sudo apt-get -y install apache2 apache2-dev
 
 #node js#
-curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
 sudo apt-get -y install nodejs
 
 #mongo db# 
 sudo apt-get install -y mongodb-org
 sudo apt-get update
 #npm tools#
-sudo npm install -g bower grunt-cli yo generator-meanjs express
+sudo npm install npm 
+sudo npm install -g bower gulp mean-cli express  #grunt-cli generator-meanjs 
 
 echo "set up complete"
