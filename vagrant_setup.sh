@@ -19,17 +19,20 @@ sudo apt-get -y install python3-setuptools
 sudo apt-get -y install python3-pip
 
 #websevrver#
-sudo apt-get -y install apache2 apache2-dev
+#sudo apt-get -y install apache2 apache2-dev
 
 #node js#
-curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
+#curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 sudo apt-get -y install nodejs
 
 #mongo db# 
 sudo apt-get install -y mongodb-org
 sudo apt-get update
 #npm tools#
-sudo npm install npm 
-sudo npm install -g bower gulp mean-cli express  #grunt-cli generator-meanjs 
-
+sudo npm install -g npm 
+#sudo npm install -g yo
+#sudo npm install -g bower
+#sudo npm install -g grunt-cli #gulp-cli mean-cli express  generator-meanjs 
+#sudo npm install -g generator-gulp-angular
 echo "set up complete"
